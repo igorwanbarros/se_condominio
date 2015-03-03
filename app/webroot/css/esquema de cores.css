@@ -1,0 +1,114 @@
+@CHARSET "UTF-8";
+body{
+	font-family: 'Arial';
+	background: #cadce0;
+	margin:0;
+	padding:0;
+}
+/*
+* ESTRUTURA DA PAGINA
+***********************************/
+#container{
+	margin:0;padding:0;
+}
+#header,#footer{
+	background: #0083c6;
+	color: white;
+}
+#header{
+	border-bottom: 4px solid black;
+	margin-bottom:20px;
+}
+#content{
+	background: #cadce0;
+	padding:0 1em;
+}
+#footer{
+	/*border-top: 4px solid black;
+	margin-top:20px;*/
+}
+/*
+* Estilos personalizados
+***********************************/
+a.link-sair{
+	color:white;
+	background: #d7030b;
+	padding:5px;
+	margin-left:10px;
+}
+.comentario{
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	
+}
+.float{
+	float:left;
+	display:block;
+}
+.logo{
+	padding:5px;
+	margin: 5px;
+}
+.padding-top{
+	padding-top:20px;
+}
+.padding-bottom{
+	padding-bottom:20px;
+}
+.margin-top{
+	margin-top:20px;
+}
+.margin-bottom{
+	margin-bottom:20px;
+}
+.btn-salvar{
+	position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  content: "\e013";
+}
+.font-size-2{
+	font-size: 2em;
+	padding:0 10px;
+}
+.text-alert{
+	padding:0.3em;
+}
+.color-simbol-right{
+	background: #0083c6;
+	padding:0.6em 0.9em;
+	margin:0 -1em 0 0.2em;
+	color:white;
+}
+.color-simbol-left{
+	background: #0083c6;
+	padding:0.6em 0.9em;
+	margin:0 0.2em 0 -1em;
+	color:white;
+}
+.green{
+	background: #3cb901;
+}
+.background-red{
+	background: #d2030b;
+}
+.color-red{
+	color: red;
+}
+.esmaecido{
+	color: #a9a9a9;
+}
+input, input.form-control, select,select.form-control{
+	background: #d8e9e6;
+	color: #0290db;
+}
+label,h1,h2,h3,h4,h5,h6{
+	color:#489fdb;
+}
+/*
+* 
+***********************************/
